@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  --background-color: #000;
+}
+
+#game {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns:repeat(1fr);
+  grid-template-rows: repeat(1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  background-color: var(--background-color);
+}
